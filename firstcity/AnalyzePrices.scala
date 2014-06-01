@@ -8,7 +8,7 @@ class AnalyzePrices(args : Args) extends Job(args) {
         (split(0), split(1))
     }
     .groupBy('action) {
-      _.sizeAveStdev('price -> ('count, 'meanAge, 'stdevAge))
+      _.sizeAveStdev('price -> ('count, 'averagePrice, 'stdevPrice))
     }
     .write (Tsv( "../sensation/firstcity/output.tsv" ))
 }
