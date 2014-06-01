@@ -7,5 +7,7 @@ It will return clear-cut, human-interprettable data.
 
 *Requires [Twitter Scalding](https://github.com/twitter/scalding) to run.*
 
+    scripts/scald.rb --local ../sensation/firstcity/WordCountJob.scala
+
 #### /bottlerock
 This is our web scraper to grab supply/demand information for certain events. It's responsible for sanitizing the data as well. /firstcity consumes data from /bottlerock.
