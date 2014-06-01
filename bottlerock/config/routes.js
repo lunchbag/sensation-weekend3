@@ -12,7 +12,7 @@
         if (err)
           res.send(err, 400);
 
-        res.send(data.body, 200);
+        res.send(data, 200);
       });
     });
 
