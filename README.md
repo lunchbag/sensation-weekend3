@@ -9,5 +9,8 @@ It will return clear-cut, human-interprettable data.
 
     scripts/scald.rb --local ../sensation/firstcity/AnalyzePrices.scala
 
-#### /bottlerock
+#### /weekend3
+This is our Scalatra web server.
+
+#### [/bottlerock](https://github.com/lambtron/sensation-bottlerock)
 This is our web scraper to grab supply/demand information for certain events. It's responsible for sanitizing the data as well. /firstcity consumes data from /bottlerock.
