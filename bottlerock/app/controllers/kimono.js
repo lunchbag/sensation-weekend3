@@ -5,6 +5,7 @@
   var request = require('request');
   var KIMONO_KEY = '6849a5e4ffb39e325c8add25b1f5695c';
   var KIMONO_PATH = 'http://www.kimonolabs.com/api/8v26ll92';
+  var _ = require('underscore');
 
   // Public functions. =========================================================
   module.exports = {
@@ -40,9 +41,8 @@
       request(opts, function(err, data) {
         if (!err) {
           var load = JSON.parse(data.body);
-          // data.body.results.collection1 => array
           sanitizeListings(load.results.collection1);
-          // console.log(load.results.collection1);
+          load.results.collection1 = _.compact(load.results.collection1);
         }
         cb(err, load);
       });
@@ -58,11 +58,11 @@
         var buyer_or_seller = arr[i].buyer_or_seller.text.toLowerCase();
 
         if (buyer_or_seller.indexOf('tickets - by owner') >= 0) {
-          arr[i].buyer_or_seller.text = 'seller';
+          arr[i].buyer_or_seller = 'seller';
         } else if (buyer_or_seller.indexOf('wanted - by owner') >= 0) {
-          arr[i].buyer_or_seller.text = 'buyer';
+          arr[i].buyer_or_seller = 'buyer';
         } else {
-          arr[i] = '';
+          arr[i].buyer_or_seller = '';
         }
       }
 
@@ -93,6 +93,17 @@
           }
         } else {
           arr[i].ticket.days = ['fri', 'sat', 'sun'];
+        }
+
+        if (arr[i].buyer_or_seller == '') {
+          if (title.indexOf('want') >= 0 || title.indexOf('look') >= 0 ||
+            title.indexOf('seek') >= 0) {
+            arr[i].buyer_or_seller = 'buyer';
+          } else if (title.indexOf('sell') >= 0 || title.indexOf('sale') >= 0) {
+            arr[i].buyer_or_seller = 'seller';
+          } else {
+            arr[i] = '';
+          }
         }
       }
 
@@ -130,6 +141,8 @@
         arr[i].date = new_date;
       }
     }
+
+    // arr = _.compact(arr);
   }
 
 }());

@@ -1,0 +1,1616 @@
+{
+  "name": "sensation-edclv",
+  "count": 100,
+  "frequency": "daily",
+  "version": 4,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Sun Jun 01 2014 19:42:59 GMT+0000 (UTC)",
+  "nextrun": "Mon Jun 02 2014 19:42:57 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [{
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4495297717.html",
+        "text": "These are your EDC tickets"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4499088515.html",
+        "text": "2 Tickets to EDC LV 2014"
+      },
+      "price": "$390",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498997194.html",
+        "text": "(2) EDC tickets for sale"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4499033749.html",
+        "text": "DIPLO at Encore beach club EDC week"
+      },
+      "price": "$100",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/pen/tix/4499014187.html",
+        "text": "EDC Las Vegas 2014 3-day GA pass"
+      },
+      "price": "$600",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498952727.html",
+        "text": "1 - EDC TICKET FOR SALES"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4472685552.html",
+        "text": "Electric daisy carnival EDC 2014 TICKETS"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4498883019.html",
+        "text": "2014 EDC VIP Ticket, Las Vegas 2014"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": true,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4498883529.html",
+        "text": "2014 EDC VIP Ticket, Las Vegas 2014"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": true,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498484887.html",
+        "text": "2 EDC Las Vegas Tickets for Sale"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498468769.html",
+        "text": "2 EDC Tickets for Sat+Sun"
+      },
+      "price": "$400",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498468861.html",
+        "text": "2 general 3 day EDC Tickets"
+      },
+      "price": "$600",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498489676.html",
+        "text": "EDC Tickets for sale!"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4498489525.html",
+        "text": "EDC LAS VEGAS GEN. ADMISSION TICKET AND LUXOR SHUTTLE PASS"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498472063.html",
+        "text": "EDC LAS VEGAS 2014 -SUNDAY TICKETS"
+      },
+      "price": "$180",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498461617.html",
+        "text": "Two Edc Tickets"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/06/01",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498442402.html",
+        "text": "Selling EDC LV Ticket SOMEONE BUY IT FORREAL LOL"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/pen/tix/4498454462.html",
+        "text": "EDC LAS VEGAS 2014 3 DAY GA PASS (1)"
+      },
+      "price": "$400",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498445726.html",
+        "text": "EDC Tickets"
+      },
+      "price": "$1200",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498440193.html",
+        "text": "3 day edc ticket"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498434109.html",
+        "text": "3-DAY EDC TICKET"
+      },
+      "price": "$400",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498429704.html",
+        "text": "2* EDC tix"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498427771.html",
+        "text": "EDC 3 days pass"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/pen/tix/4498413566.html",
+        "text": "EDC Las Vegas 2014 (2) MONTE CARLO SHUTTLE PASS - SOLD OUT"
+      },
+      "price": "$120",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4498390204.html",
+        "text": "2 EDC VEGAS TICKETS Hard Copies"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/wan/4498345788.html",
+        "text": "Want to Trade 2 EDC Vegas Shuttle Passes (The LINQ for MIRAGE)"
+      },
+      "price": "",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/wan/4498199358.html",
+        "text": "Wanted: 2 3-Day EDC LV Tickets $700"
+      },
+      "price": "$700",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498331158.html",
+        "text": "EDC 2014 3-day ticket for sale w/ complete box!!"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498300773.html",
+        "text": "**EDC LAS VEGAS 3-day ticket **"
+      },
+      "price": "$600",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498295959.html",
+        "text": "EDC 2014 GA"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/scz/tix/4498264525.html",
+        "text": "2 EDC Tickets GA Tickets"
+      },
+      "price": "$600",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498231021.html",
+        "text": "Selling 1 EDC Shuttle (Mirage)"
+      },
+      "price": "$100",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498216848.html",
+        "text": "EDC 2014 GA ticket w/buspass and entire package"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4498191558.html",
+        "text": "EDC 3-Day Pass"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4498108755.html",
+        "text": "2 hard copy EDC Tickets"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/scz/tix/4498167356.html",
+        "text": "3-day EDC tickets for sale"
+      },
+      "price": "$460",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/wan/4498140302.html",
+        "text": "Need an EDC shuttle pass"
+      },
+      "price": "$150",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4498131305.html",
+        "text": "Two 3 day passes to Edc Las Vegas $450/each"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4498099925.html",
+        "text": "EDC Tickets for sale!"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4497913351.html",
+        "text": "Electric Daisy Carnival (EDC) Las Vegas 2014 - GA Passes"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4497812052.html",
+        "text": "EDC Las Vegas EDC 3 Day VIP"
+      },
+      "price": "$850",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": true,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4497979654.html",
+        "text": "EDC LV Monte Carlo/ Cosmopolitan shuttle pass"
+      },
+      "price": "$55",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4491714672.html",
+        "text": "SELLING 1 EDC TICKET"
+      },
+      "price": "$525",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497925199.html",
+        "text": "2 EDC SHUTTLE PASSES - MANDALAY BAY"
+      },
+      "price": "$120",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/pen/tix/4497925958.html",
+        "text": "2 EDC SHUTTLE PASSES - MANDALAY BAY"
+      },
+      "price": "$240",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4497890223.html",
+        "text": "EDC 2014, Two Tickets for SALE!"
+      },
+      "price": "$470",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4497798428.html",
+        "text": "EDC Las Vegas 2014 3 day GA tickets + shuttle passes (2 of each)"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497839031.html",
+        "text": "Edc Vegas 2014 las 2 tickets"
+      },
+      "price": "$1",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4497837972.html",
+        "text": "EDC Las Vegas 2014 - (1) 3-day General Admission Ticket!"
+      },
+      "price": "$600",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497785265.html",
+        "text": "Edc Las Vegas 2014"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497779399.html",
+        "text": "2x EDC Tickets for Sale"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4497706764.html",
+        "text": "2 tickets EDC (Sunday only )"
+      },
+      "price": "$120",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4497684565.html",
+        "text": "2 tickets EDC Friday/Sunday Passes"
+      },
+      "price": "$300",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4497598964.html",
+        "text": "EDC -EXCALIBUR Shuttle Pass"
+      },
+      "price": "$100",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497574362.html",
+        "text": "SOLD OUT VIP EDC TICKETS"
+      },
+      "price": "$750",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": true,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/nby/tix/4497532460.html",
+        "text": "EDC Las Vegas 2014 3 day GA pass"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/wan/4497536493.html",
+        "text": "Warning: Scammed by EDC Seller"
+      },
+      "price": "",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497413420.html",
+        "text": "(2) 3 day EDC tickets"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4497433499.html",
+        "text": "3 Day EDC Las Vegas Ticket for Sale!!!"
+      },
+      "price": "$400",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/wan/4483048853.html",
+        "text": "WTB Want to buy Buying 4 EDC 3 Day Tickets"
+      },
+      "price": "$400",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4497078801.html",
+        "text": "TWO EDC TICKETS!!"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496959892.html",
+        "text": "3 EDC GA tickets for sale"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496959896.html",
+        "text": "(2) EDC tickets for sale!"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496942277.html",
+        "text": "EDC Ticket for sale"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/31",
+      "title": {
+        "href": "http://sfbay.craigslist.org/scz/tix/4496940063.html",
+        "text": "2 EDC Shuttle Passes - Mirage Pickup"
+      },
+      "price": "$110",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4491524367.html",
+        "text": "EDC 2014 3- Day GA & Shuttle Pass (3 available)"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496894573.html",
+        "text": "EDC Las Vegas 2014, One ticket for sale"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496889243.html",
+        "text": "EDC 3 day ticket + shuttle"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496864506.html",
+        "text": "EDC 2014"
+      },
+      "price": "$525",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496839616.html",
+        "text": "2014 EDC 3 DAY GA FOR SALE"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/nby/tix/4496825072.html",
+        "text": "edc ticket"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/wan/4496805196.html",
+        "text": "WTB EDC shuttle Monte Carlo x3"
+      },
+      "price": "$300",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/nby/tix/4496791343.html",
+        "text": "EDC Shuttle Pass MGM"
+      },
+      "price": "$100",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496785091.html",
+        "text": "**EDC LV 3-DAY PASS W/ BOX**"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496755921.html",
+        "text": "EDC w/ box"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/pen/tix/4496753864.html",
+        "text": "Selling two Sunday EDC tickets."
+      },
+      "price": "$250",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496734149.html",
+        "text": "(2) EDC tickets for sale!"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496642452.html",
+        "text": "3-day EDC 2014 General Admission Ticket"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496623826.html",
+        "text": "two EDC Las Vegas tickets"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496430108.html",
+        "text": "EDC LAS VEGAS 2014"
+      },
+      "price": "$575",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496605842.html",
+        "text": "Sunday EDC Tickets"
+      },
+      "price": "$175",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496600916.html",
+        "text": "EDC Sunday Tickets"
+      },
+      "price": "$200",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496583134.html",
+        "text": "EDC Las Vegas 2014 - 3 day- 2 tickets"
+      },
+      "price": "$430",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496577651.html",
+        "text": "1 3-Day EDC Vegas 2014 Pass"
+      },
+      "price": "$550",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496500903.html",
+        "text": "VIP EDC LAS VEGAS wristband"
+      },
+      "price": "$600",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": true,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496520315.html",
+        "text": "2 tickets to EDC"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4484814186.html",
+        "text": "3 Tickets to EDC - Under The Electric Sky this MONDAY! 06/02/2014"
+      },
+      "price": "$14",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4496493423.html",
+        "text": "Two 3-day EDC tickets"
+      },
+      "price": "$575",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/tix/4485335863.html",
+        "text": "2 EDC Las Vegas-3 Day Passes"
+      },
+      "price": "$480",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/pen/tix/4496364239.html",
+        "text": "EDC SHUTTLE PASS CIRCUS CIRCUS"
+      },
+      "price": "$90",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496279270.html",
+        "text": "EDC LV 3-DAY GA"
+      },
+      "price": "$450",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sby/tix/4496342943.html",
+        "text": "Wanted 2 edc passes"
+      },
+      "price": "",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/eby/wan/4496183009.html",
+        "text": "EDC ARIA SHUTTLE PASS"
+      },
+      "price": "$80",
+      "buyer_or_seller": "buyer",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496010421.html",
+        "text": "Two 3-day EDC Tickets w/ shuttle passes"
+      },
+      "price": "$500",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": true,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }, {
+      "date": "2014/05/30",
+      "title": {
+        "href": "http://sfbay.craigslist.org/sfc/tix/4496249454.html",
+        "text": "2 EDC LV 3 day GA passes"
+      },
+      "price": "$475",
+      "buyer_or_seller": "seller",
+      "ticket": {
+        "vip": false,
+        "shuttle": false,
+        "days": [
+          "fri",
+          "sat",
+          "sun"
+        ]
+      }
+    }]
+  }
+}
