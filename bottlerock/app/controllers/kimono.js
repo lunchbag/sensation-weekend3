@@ -95,6 +95,40 @@
           arr[i].ticket.days = ['fri', 'sat', 'sun'];
         }
       }
+
+      // Change date format.
+      if (arr[i].date) {
+        var old_date = arr[i].date.toLowerCase();
+        var new_date = '2014/';
+        // May 29 => YYYY/MM/DD
+        var months = {
+          jan: '01',
+          feb: '02',
+          mar: '03',
+          apr: '04',
+          may: '05',
+          jun: '06',
+          jul: '07',
+          aug: '08',
+          sep: '09',
+          oct: '10',
+          nov: '11',
+          dec: '12'
+        };
+        for (var property in months) {
+          if (months.hasOwnProperty(property)) {
+            if (old_date.indexOf(property) >= 0)
+              new_date += months[property] + '/';
+          }
+        }
+
+        var num_date = old_date.replace(/^\D+/g, '');
+        if (num_date.length == 1)
+          num_date = '0' + num_date;
+        new_date += num_date;
+
+        arr[i].date = new_date;
+      }
     }
   }
 
