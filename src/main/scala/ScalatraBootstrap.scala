@@ -13,7 +13,7 @@ class ScalatraBootstrap extends LifeCycle {
     val mongoColl = mongoClient("app25917593")("test_listings")
 
     // pass a reference to the Mongo collection into your servlet when you mount it at application start:
-    context.mount(new MongoController(mongoColl), "/*")
+    context.mount(new MongoController(mongoColl), "/mongo/*")
 
     context.mount(new SensationServlet, "/*")
   }
