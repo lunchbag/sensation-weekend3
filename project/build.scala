@@ -22,11 +22,14 @@ object SensationBuild extends Build {
       scalaVersion := ScalaVersion,
       resolvers += Classpaths.typesafeReleases,
       libraryDependencies ++= Seq(
+        "org.mongodb" %% "casbah" % "2.6.0",
         "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
-        "org.scalatra" %% "scalatra-specs2" % ScalatraVersion % "test",
+       // "org.fusesource.scalate" %% "scalate-wikitext_2.10" % "1.6.1",
+       // "org.fusesource.scalate" %% "scalate-test_2.10" % "1.6.1",
         "org.scalatra" %% "scalatra-json" % "2.2.2",
-        "org.json4s"   %% "json4s-jackson" % "3.2.6",
+        "org.json4s"   %% "json4s-jackson" % "3.2.9",
+        "org.json4s"   %% "json4s-native" % "3.2.9",
         "ch.qos.logback" % "logback-classic" % "1.0.6" % "runtime",
         "org.eclipse.jetty" % "jetty-webapp" % "8.1.10.v20130312" % "compile;container",
         "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "compile;container;provided;test" artifacts (Artifact("javax.servlet", "jar", "jar"))
