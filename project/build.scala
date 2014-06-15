@@ -22,7 +22,7 @@ object SensationBuild extends Build {
       scalaVersion := ScalaVersion,
       resolvers += Classpaths.typesafeReleases,
       libraryDependencies ++= Seq(
-        "org.mongodb" %% "casbah" % "2.6.0",
+        "org.mongodb" %% "casbah" % "2.7.2",
         "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
        // "org.fusesource.scalate" %% "scalate-wikitext_2.10" % "1.6.1",

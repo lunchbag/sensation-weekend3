@@ -1,8 +1,6 @@
 package com.somethingLabs.sensation
 
 import org.scalatra._
-
-// MongoDb-specific imports
 import com.mongodb.casbah.Imports._
 
 class MongoController(mongoColl: MongoCollection) extends SensationStack {
@@ -12,10 +10,12 @@ class MongoController(mongoColl: MongoCollection) extends SensationStack {
    * curl -i -H "Accept: application/json" -X POST -d "key=super&value=duper" http://localhost:8080/insert
    */
   post("/") {
+    println("hidssd")
     val key = params("key")
     val value = params("value")
     val newObj = MongoDBObject(key -> value)
-    mongoColl += newObj
+    println(mongoColl.count())
+    mongoColl.insert(newObj)
   }
 
   /**

@@ -5,11 +5,11 @@ import scala.collection.immutable.List
 object Analyze {
 
   case class Ticket (
-    vip:Boolean,
-    shuttle:Boolean,
-    fri:Boolean,
-    sat:Boolean,
-    sun:Boolean
+    vip:String,
+    shuttle:String,
+    fri:String,
+    sat:String,
+    sun:String
   )
 
   case class Listing (
@@ -30,6 +30,13 @@ object Analyze {
     ticket: Ticket
   )
 
+  case class buyerOrSellerMeanStdMean (
+    buyer_or_seller: String,
+    mean: Double,
+    std_dev: Double,
+    quantity: Int
+  )
+
   def mean(xs: List[Double]): Double = xs match {
     case Nil => 0.0
     case ys => ys.reduceLeft(_ + _) / ys.size.toDouble
@@ -42,75 +49,16 @@ object Analyze {
     } / xs.size)
   }
 
-  def derp(args: Array[String]) {
-    val data = List(
-      Listing(
-        "2014/05/21",
-        "123",
-        "buyer",
-        Ticket(
-          true,
-          true,
-          true,
-          false,
-          true)
-      ),
-      Listing(
-        "2014/05/22",
-        "125",
-        "buyer",
-        Ticket(
-          true,
-          true,
-          true,
-          false,
-          true)
-      ),
-      Listing(
-        "2014/05/21",
-        "111",
-        "buyer",
-        Ticket(
-          true,
-          true,
-          true,
-          false,
-          true)
-      ),
-      Listing(
-        "2014/05/21",
-        "111",
-        "seller",
-        Ticket(
-          true,
-          true,
-          true,
-          false,
-          true)
-      ),
-      Listing(
-        "2014/05/21",
-        "136",
-        "seller",
-        Ticket(
-          true,
-          true,
-          true,
-          false,
-          true)
-      )
-    )
-  }
 
- def analyze (data: List[Listing]) {
-    val groupedByDateActionTicket = data map { x =>
+ def analyze (data: List[Listing]): Map[GroupedListingByDateTicket, List[buyerOrSellerMeanStdMean]] = {
+   val groupedByDateActionTicket = data map { x =>
       (GroupedListing.apply(x.date, x.buyer_or_seller, x.ticket), x.price)
     } groupBy ( listing => listing._1 ) map {
       case (groupedListing, list) =>
         val listOfPrices = list map ( listing => listing._2.toDouble )
         val avg = mean(listOfPrices)
         val stdDev = stddev(listOfPrices, avg)
-        (groupedListing, (avg, stdDev))
+        (groupedListing, (avg, stdDev, listOfPrices length))
     } map {
       // Rearranging without seller/buyer in the first value
       case (key, value) =>
@@ -118,10 +66,55 @@ object Analyze {
     } groupBy ( listing => listing._1 ) map {
       // Regrouping
       case (key, value) =>
-        val sanitizedValue = value map ( x => (x._2, x._3))
-        (key, sanitizedValue)
+        val sanitizedValue = value map ( x =>
+          buyerOrSellerMeanStdMean.apply(x._2, x._3._1, x._3._2, x._3._3)
+        )
+        (key, sanitizedValue.toList)
     }
     println(groupedByDateActionTicket)
     groupedByDateActionTicket
  }
+
+  def toMongoObject (data: Map[GroupedListingByDateTicket, List[(String,Tuple2[Double, Double])]]): List[(String,Unit)] = {
+    List(
+      ("date", "2014/06/01")
+      /*("seller", Map(
+        "mean" -> 515.45,
+        "std_dev" -> 31.58
+      ))
+      "buyer" -> Map(
+        "mean" -> 475.45,
+        "std_dev" -> 32.12
+      ),
+      "ticket" -> Map(
+        "vip" -> false,
+        "shuttle" -> false,
+        "fri" -> true,
+        "sat" -> true,
+        "sun" -> true
+      )*/
+    )
+  }
 }
+
+/*
+
+
+Map(
+  GroupedListingByDateTicket(
+    2014/06/03,
+    Ticket(false,false,true,true,true)
+  ) ->
+  List(
+    (seller,(475.0,0.0))
+  ),
+  GroupedListingByDateTicket(
+    2014/06/01,
+    Ticket(false,false,true,true,true)
+  ) ->
+  List(
+    (seller,(460.0,5.0)),
+    (buyer,(435.0,20.0))
+  ), GroupedListingByDateTicket(2014/06/02,Ticket(false,false,true,true,true)) -> List((seller,(475.0,0.0)), (buyer,(432.0,0.0))))
+
+ */
