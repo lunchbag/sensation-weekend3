@@ -23,9 +23,19 @@ case class Listing (
   ticket: Ticket
 )
 
-class SensationServlet(mongoColl: MongoCollection) extends SensationStack with JacksonJsonSupport {
+class SensationServlet extends SensationStack with JacksonJsonSupport {
 
   protected implicit val jsonFormats: Formats = DefaultFormats
+
+  val db = "app25917593"
+
+  //app25917593
+
+  val r = new ServerAddress("kahana.mongohq.com", 10065)
+  val credentials = MongoCredential.createMongoCRCredential("lunchbag", "app25917593", "baglunch" toCharArray)
+  val mongoClient = MongoClient(r, List(credentials))
+
+  val mongoColl = mongoClient(db)("Listings")
 
   before() {
     contentType = formats("json")
