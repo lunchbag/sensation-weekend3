@@ -71,50 +71,6 @@ object Analyze {
         )
         (key, sanitizedValue.toList)
     }
-    println(groupedByDateActionTicket)
     groupedByDateActionTicket
  }
-
-  def toMongoObject (data: Map[GroupedListingByDateTicket, List[(String,Tuple2[Double, Double])]]): List[(String,Unit)] = {
-    List(
-      ("date", "2014/06/01")
-      /*("seller", Map(
-        "mean" -> 515.45,
-        "std_dev" -> 31.58
-      ))
-      "buyer" -> Map(
-        "mean" -> 475.45,
-        "std_dev" -> 32.12
-      ),
-      "ticket" -> Map(
-        "vip" -> false,
-        "shuttle" -> false,
-        "fri" -> true,
-        "sat" -> true,
-        "sun" -> true
-      )*/
-    )
-  }
 }
-
-/*
-
-
-Map(
-  GroupedListingByDateTicket(
-    2014/06/03,
-    Ticket(false,false,true,true,true)
-  ) ->
-  List(
-    (seller,(475.0,0.0))
-  ),
-  GroupedListingByDateTicket(
-    2014/06/01,
-    Ticket(false,false,true,true,true)
-  ) ->
-  List(
-    (seller,(460.0,5.0)),
-    (buyer,(435.0,20.0))
-  ), GroupedListingByDateTicket(2014/06/02,Ticket(false,false,true,true,true)) -> List((seller,(475.0,0.0)), (buyer,(432.0,0.0))))
-
- */

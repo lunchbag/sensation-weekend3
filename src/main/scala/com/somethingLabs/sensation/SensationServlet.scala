@@ -1,40 +1,19 @@
 package com.somethingLabs.sensation
 
 import com.somethingLabs.sensation.Analyze._
-import org.scalatra._
 import org.json4s.{DefaultFormats, Formats}
 import org.scalatra.json._
 import com.mongodb.casbah.Imports._
-import com.somethingLabs.sensation.Ticket
-
-case class Ticket (
-  vip:String,
-  shuttle:String,
-  fri:String,
-  sat:String,
-  sun:String,
-  derp:String
-)
-
-case class Listing (
-  date: String,
-  price: String,
-  buyer_or_seller: String,
-  ticket: Ticket
-)
+import org.scalatra.Ok
 
 class SensationServlet extends SensationStack with JacksonJsonSupport {
 
   protected implicit val jsonFormats: Formats = DefaultFormats
 
   val db = "app25917593"
-
-  //app25917593
-
-  val r = new ServerAddress("kahana.mongohq.com", 10065)
-  val credentials = MongoCredential.createMongoCRCredential("lunchbag", "app25917593", "baglunch" toCharArray)
-  val mongoClient = MongoClient(r, List(credentials))
-
+  val addr = new ServerAddress("kahana.mongohq.com", 10065)
+  val credentials = MongoCredential.createMongoCRCredential("lunchbag", db, "baglunch" toCharArray)
+  val mongoClient = MongoClient(addr, List(credentials))
   val mongoColl = mongoClient(db)("Listings")
 
   before() {
@@ -44,14 +23,12 @@ class SensationServlet extends SensationStack with JacksonJsonSupport {
   post("/create") {
     val b = parsedBody.children.map {
       value =>
-        value.extract[Analyze.Listing]
+        value.extract[Listing]
     }
     val a = analyze(b)
-    println("ok")
 
     a.map {
       case (key, value) =>
-
         // deconstruct buyer/seller status, std dev, and mean
         val v = value map { x: buyerOrSellerMeanStdMean =>
           caseClassToMap(x)
@@ -87,33 +64,17 @@ class SensationServlet extends SensationStack with JacksonJsonSupport {
             )
          } toList
 
-        println("k")
-        println(k)
-
-        /*val k = v map {
-          case(key: String, value: String) =>
-            (key, value)
-        } toList
-
-        println("k")
-        println(k)*/
-
         val obj = MongoDBObject(List(
           ("date", key.date),
           ("ticket", caseClassToMap(key.ticket))
         ) ::: k)
 
-        println(obj)
         mongoColl.insert(obj)
     }
-
-    //val newObj = MongoDBObject(c)
-    //println(newObj)
-    //mongoColl.insert(newObj)
+    Ok()
   }
 
   def caseClassToMap(ticket: Product): Map[String, String] = {
-    //val values = ticket.productIterator
    val a = ticket.getClass.getDeclaredFields map {
       _.getName } zip {
       ticket.productIterator.to } toMap
@@ -123,12 +84,5 @@ class SensationServlet extends SensationStack with JacksonJsonSupport {
    b
   }
 
-  get("/") {
-    <html>
-    <body>
-      <h1>Hello, world!</h1>
-      Say <a href="hello-scalate">hello to Scalate</a>.
-    </body>
-    </html>
-  }
+  get("/") { }
 }
