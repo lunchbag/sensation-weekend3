@@ -39,7 +39,7 @@ class SensationServlet(mongoColl: MongoCollection) extends SensationStack with J
     val a = analyze(b)
     println("ok")
 
-    val c = a.map {
+    a.map {
       case (key, value) =>
 
         // deconstruct buyer/seller status, std dev, and mean
